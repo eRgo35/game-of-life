@@ -1,8 +1,17 @@
 [package]
 name = "game-of-life"
-version = "0.1.0"
+version = "1.0.0"
+authors = ["Michał Czyż <mike@c2yz.com>"]
 edition = "2021"
 
+description = "Rust implementation of the Game of Life"
+homepage = "https://github.com/eRgo35/game-of-life"
+repository = "https://github.com/eRgo35/game-of-life"
+documentation = "https://github.com/eRgo35/game-of-life"
+license = "MIT"
+readme = "README.md"
+
 [dependencies]
+clap = { version = "4.5.10", features = ["derive"] }
 clearscreen = "3.0.0"
 rand = "0.8.5"
